@@ -7,6 +7,7 @@ import LoginPage from "./Pages/LoginPage.jsx";
 
 import { BrowserRouter, Route } from 'react-router-dom';
 import SignInPage from './Pages/SignInPage';
+import RegisterPage from './Pages/RegisterPage';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path = "/Login" component={LoginPage} exact></Route>
           <Route path = "/Specials" component={SpecialsPage} exact></Route>
           <Route path = "/SignIn" component={SignInPage} exact></Route>
+          <Route path = "/Register" component={RegisterPage} exact></Route>
         </main>
         <footer>
           <h6 className="row center">eBistrot Pty Ltd</h6>
