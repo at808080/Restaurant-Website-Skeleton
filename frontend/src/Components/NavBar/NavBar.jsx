@@ -28,7 +28,7 @@ function NavBar() {
         <div>
         {
           userInfo  ? (
-            <Link to="#">{userInfo.name} name</Link>
+            <Link to="/profile">{userInfo.firstname} {userInfo.lastname}</Link>
            
           ) : (
             <Link to="/signin">Sign In</Link>
